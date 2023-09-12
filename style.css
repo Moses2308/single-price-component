@@ -4,9 +4,29 @@
   --color-light-gray: hsl(204, 43%, 93%);
   --color-grayishblue: hsl(218, 22%, 67%);
 
-  -weight-normal: 400;
-  -weight-heavy: 700;
+  --weight-normal: 400;
+  --weight-heavy: 700;
 }
 body {
   background-color: var(--color-light-gray);
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
+.brochure {
+  background-color: white;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.content-block {
+  padding: 1rem;
+}
+.content-block > h2 {
+  font-weight: var(--weight-heavy);
+  font-size: 1.5rem;
+}
+.
