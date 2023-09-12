@@ -1,0 +1,12 @@
+:root {
+  --color-cyan: hsl(179, 62%, 43%);
+  --color-brightyellow: hsl(71, 73%, 54%);
+  --color-light-gray: hsl(204, 43%, 93%);
+  --color-grayishblue: hsl(218, 22%, 67%);
+
+  -weight-normal: 400;
+  -weight-heavy: 700;
+}
+body {
+  background-color: var(--color-light-gray);
+}
