@@ -27,6 +27,9 @@ body {
 .content-block {
   padding: 1.5rem;
 }
+h1 {
+  display: none;
+}
 .content-block > h2 {
   font-weight: var(--weight-heavy);
   font-size: 1.25rem;
