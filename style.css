@@ -85,3 +85,34 @@ body {
   padding: 0;
   color: var(--color-light-gray);
 }
+@media (min-width: 500px) {
+  .brochure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "community community"
+      "subscription pursuade";
+    max-width: 643px;
+  }
+  .content-block {
+    padding: 2rem;
+  }
+  .community {
+    grid-area: community;
+  }
+  .community > p {
+    font-size: 1rem;
+  }
+  .subscription {
+    grid-area: subscription;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .pursuade {
+    grid-area: pursuade;
+  }
+  .pursuade > ul {
+    font-size: 0.9rem;
+  }
+}
